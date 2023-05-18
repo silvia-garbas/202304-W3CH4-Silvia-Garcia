@@ -4,10 +4,11 @@ import { Header } from './components/header';
 import { SectionTitle } from './components/sectiontitle';
 import { SeriesList } from './components/series.list';
 
-new Header('.container', "Ya disponible la premier de: 'Me ha faltado tiempo O_o'");
+new Header(
+  '.container',
+  "Ya disponible la premier de: 'Me ha faltado tiempo O_o'"
+);
 new SectionTitle('.container');
 
 // eslint-disable-next-line no-new
-new SeriesList('.container', "serie");
-
-
+new SeriesList('.container', 'serie');
