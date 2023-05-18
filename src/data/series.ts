@@ -19,7 +19,7 @@ export const getMockSerie = (): Serie[] => [
     'Mad men',
     'Matthew Weiner',
     2007,
-    'https://pics.filmaffinity.com/Mad_Men_Serie_de_TV-351490728-large.jpg',
+    '	https://www.cine.com/media/series/2378.jpg',
     116
   ),
   new Serie(
@@ -33,7 +33,7 @@ export const getMockSerie = (): Serie[] => [
     'Atypical',
     'Robia Rashid',
     2017,
-    'https://www.cine.com/media/series/2711.jpg',
+    'https://www.cine.com/media/series/fotos/atipico-2539_1.jpg',
     0
   ),
 ];

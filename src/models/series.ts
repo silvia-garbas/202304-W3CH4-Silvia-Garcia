@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 export type SeriesStructure = {
   id: number;
   name: string;
@@ -18,6 +19,7 @@ export class Serie implements SeriesStructure {
   id: number;
   watched: boolean;
   score: number;
+  // eslint-disable-next-line max-params
   constructor(
     public name: string,
     public creator: string,
