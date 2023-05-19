@@ -60,6 +60,6 @@ export class SeriesList extends Component {
       )
       .join('');
 
-    return list;
+    return `<ul class="series-list">${list}</ul>`
   }
 }
