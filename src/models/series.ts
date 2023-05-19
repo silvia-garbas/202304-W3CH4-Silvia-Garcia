@@ -1,23 +1,22 @@
 /* eslint-disable no-unused-vars */
 export type SeriesStructure = {
-  id: number;
+  id: string;
   name: string;
   creator: string;
   year: number;
   poster: string;
-  watched: boolean;
+  Iswatched: boolean;
   score: number;
   emmies: number;
 };
 
 export class Serie implements SeriesStructure {
-  static createId = 1;
   static generateID() {
-    return this.createId++;
+    return Math.trunc(Math.random() * 1_000_000_000_000).toString();
   }
 
-  id: number;
-  watched: boolean;
+  id: string;
+  Iswatched: boolean;
   score: number;
   // eslint-disable-next-line max-params
   constructor(
@@ -28,7 +27,7 @@ export class Serie implements SeriesStructure {
     public emmies: number
   ) {
     this.id = Serie.generateID();
-    this.watched = false;
+    this.Iswatched = false;
     this.score = 0;
   }
 }
