@@ -12,7 +12,7 @@ export class Header extends Component {
   createTemplate() {
     return `
     <header class="main-header">
-      <h1 class="main-title">${this.title}</h1>
+      <h1 class="main-title">My Series</h1>
     </header>
     `;
   }

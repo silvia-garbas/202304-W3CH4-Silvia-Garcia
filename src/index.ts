@@ -6,7 +6,7 @@ import { SeriesList } from './components/series.list';
 
 new Header(
   '.container',
-  "Ya disponible la premier de: 'Me ha faltado tiempo O_o'"
+  'My Series'
 );
 new SectionTitle('.container');
 
